@@ -1,0 +1,11 @@
+2021-12-20T17:05:09,911 [http-nio-8080-exec-10] DEBUG (LogFormatUtils.java:91) - GET "/airlines/logout", parameters={}
+2021-12-20T17:05:09,922 [http-nio-8080-exec-10] DEBUG (AbstractHandlerMapping.java:412) - Mapped to com.cts.caseStudy3.airlines.controller.LoginController#logout(HttpServletRequest)
+2021-12-20T17:05:09,922 [http-nio-8080-exec-10] DEBUG (LoginController.java:90) - Entered logout controller
+2021-12-20T17:05:09,922 [http-nio-8080-exec-10] INFO  (LoginController.java:93) - User session closed and logged out successfully.
+2021-12-20T17:05:09,923 [http-nio-8080-exec-10] DEBUG (AbstractView.java:310) - View name 'redirect:', model {}
+2021-12-20T17:05:09,923 [http-nio-8080-exec-10] DEBUG (FrameworkServlet.java:1131) - Completed 302 FOUND
+2021-12-20T17:05:09,934 [http-nio-8080-exec-1] DEBUG (LogFormatUtils.java:91) - GET "/airlines/", parameters={}
+2021-12-20T17:05:09,934 [http-nio-8080-exec-1] DEBUG (AbstractHandlerMapping.java:412) - Mapped to com.cts.caseStudy3.airlines.controller.LoginController#test(HttpServletResponse)
+2021-12-20T17:05:09,935 [http-nio-8080-exec-1] DEBUG (AbstractView.java:310) - View name 'login', model {}
+2021-12-20T17:05:09,935 [http-nio-8080-exec-1] DEBUG (InternalResourceView.java:169) - Forwarding to [/WEB-INF/views/login.jsp]
+2021-12-20T17:05:09,939 [http-nio-8080-exec-1] DEBUG (FrameworkServlet.java:1131) - Completed 200 OK
